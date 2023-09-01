@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #07374a;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span {
+    color: rgb(207, 83, 83);
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.nav-elements {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #B5B7B7;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;   
+}
+
+a.active {
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+    margin-left: 50px;
+
+}
+
+section.mybanner {
+    text-align: center;
+    padding: 100px 0;
+    height: 300px;
+    background-image: url('./assets/which-development-job-is-right-for-you.jpg');
+    background-size: cover;
+    color: white;
+}
+
+section.mybanner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+section.mybanner p {
+    font-size: 24px;
+}
+
+
+section.featured-work {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #0b1e26;
+    color: #fff;
+}
+
+section.featured-work h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin: 150px;
+    padding: 60px;
+    background-color: #07374a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.project a {
+    text-decoration: none;
+    color: white;
+}
+
+.project p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer{
+    background: #07374a;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+.about-me {
+    background-color: #0b1e26;
+    padding: 96px 0;
+  }
+
+  .about-me .container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-me .about-heading {
+    color: #25b79f;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .about-me img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 40px;
+  }
+  
+  .about-me p {
+    font-size: 1.2rem;
+    color: #f0f0e6;
+    padding: 0 2.3rem;
+    text-align: center;
+  }
+
+    
+  
+.container {
+    width: 460px;
+    margin: 0 auto;
+}
+
+.skills {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #0b1e26;
+    color: #fff; 
+}
+
+
+.skills h2{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 30px;
+}
+.skill {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.skill-progress {
+    background-color: #25b79f;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.education {
+    background-color: #0b1e26;
+    color:#fff;
+    padding: 50px;
+}
+
+.education img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 100%;
+    float: left;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.education-entry {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.education-entry h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education-entry p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+.contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #0b1e26;
+    color:#fff;
+}
+
+.left-content {
+    width: 50%;
+    float: left;
+}
+
+.right-content{
+    width: 50%;
+    float: left;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.contact .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-details,
+.social-media,
+.contact-form {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.contact-details h2,
+.social-media h2,
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #25b79f;
+}
+
+.contact-form textarea,
+.contact-form input {
+    width: 96%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form textarea {
+    grid-column: span 2;
+    resize: vertical;
+}
+
+.contact-form button {
+    grid-column: span 2;
+    background-color: #25b79f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
